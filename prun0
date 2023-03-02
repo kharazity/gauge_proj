@@ -1,0 +1,36 @@
+         20732466 function calls (19470439 primitive calls) in 4.769 seconds
+
+   Ordered by: cumulative time
+   List reduced from 541 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    4.769    4.769 {built-in method builtins.exec}
+        1    0.000    0.000    4.769    4.769 <string>:1(<module>)
+        1    0.000    0.000    4.681    4.681 2732114086.py:2(outcome_errors)
+182481/25886    0.153    0.000    4.337    0.000 cache.py:67(wrapper)
+       56    0.000    0.000    3.407    0.061 common.py:2037(applyfunc)
+       56    0.000    0.000    3.407    0.061 common.py:1999(_eval_applyfunc)
+       56    0.000    0.000    3.402    0.061 common.py:2000(<listcomp>)
+       11    0.000    0.000    3.299    0.300 common.py:2407(subs)
+      176    0.000    0.000    3.296    0.019 common.py:2426(<lambda>)
+      176    0.009    0.000    3.296    0.019 basic.py:802(subs)
+66851/6672    0.044    0.000    2.962    0.000 basic.py:1002(_subs)
+52445/4418    0.089    0.000    2.910    0.001 basic.py:1074(fallback)
+        2    0.000    0.000    2.778    1.389 2142810584.py:106(approx_simulate)
+9323/6836    0.045    0.000    2.130    0.000 operations.py:52(__new__)
+     3394    0.089    0.000    1.535    0.000 add.py:184(flatten)
+   200859    0.569    0.000    1.508    0.000 basic.py:2016(_aresame)
+      4/3    0.000    0.000    1.378    0.459 functools.py:949(__get__)
+        1    0.000    0.000    1.360    1.360 2142810584.py:64(order2_F_map)
+12014/2911    0.004    0.000    1.299    0.000 decorators.py:99(binary_op_wrapper)
+11597/11210    0.005    0.000    1.219    0.000 decorators.py:224(_func)
+     8061    0.014    0.000    0.799    0.000 {method 'sort' of 'list' objects}
+270775/96116    0.346    0.000    0.785    0.000 basic.py:204(compare)
+     3394    0.001    0.000    0.783    0.000 add.py:36(_addsort)
+     2232    0.001    0.000    0.696    0.000 expr.py:195(__add__)
+      106    0.000    0.000    0.693    0.007 common.py:2701(__add__)
+      106    0.000    0.000    0.693    0.007 repmatrix.py:245(_eval_add)
+5708/5434    0.049    0.000    0.691    0.000 mul.py:197(flatten)
+      106    0.000    0.000    0.691    0.007 domainmatrix.py:795(__add__)
+      106    0.000    0.000    0.691    0.007 domainmatrix.py:849(add)
+      106    0.000    0.000    0.690    0.007 sdm.py:515(add)
